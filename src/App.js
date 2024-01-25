@@ -1,9 +1,13 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 
 function App() {
-  return <h1>Hola Mundo</h1>
-    
+  return (
+    <>
+   <Navbar/>
+    </>
+  
+  )
 }
 
 export default App;
